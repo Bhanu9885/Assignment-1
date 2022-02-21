@@ -1,0 +1,271 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(219, 255, 205);
+}
+
+h1{
+    margin: 10px;
+    padding:  10px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Sacramento';
+    color: rgb(80, 129, 219);
+}
+div h3{
+    margin: 10px;
+    padding: 10px;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Sacramento';
+}
+div p{
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+}
+.container button{
+    margin:10px;
+    padding: 10px;
+    
+}
+.container button:hover {
+    margin:10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: aqua;
+    transform: scale(1.5); 
+}
+.container a{
+    font-size: 25px;
+    color: chocolate;
+    text-decoration: none; 
+}
+.container a:hover{
+    color: rgb(123, 14, 248);
+    font-size: 25px;   
+}
+
+#tajmahal{
+    border: 5px solid;
+    border-color: deeppink;
+    border-radius: 25px;    
+}
+#tajmahal h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkgreen;
+}
+#tajmahal .tajmahal{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+}
+.tajmahal img{
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 45px;   
+}
+.tajmahal p{
+    margin: auto;
+    padding: auto;
+    font-size: 30px;
+    text-align: center;  
+}
+#colosseum{
+    border: 5px solid;
+    border-color: deeppink;
+    border-radius: 25px;    
+}
+#colosseum h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkgreen;
+}
+#colosseum .colosseum{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+.colosseum img{
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 45px;
+}
+.colosseum p{
+    margin: auto;
+    padding: auto;
+    font-size: 25px;
+    text-align: center;
+}
+#christ{
+    border: 5px solid;
+    border-color: deeppink;
+    border-radius: 25px;    
+}
+#christ h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkgreen;
+}
+#christ .christ{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+.christ img{
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    height: 550px;
+    border-radius: 45px;
+}
+.christ p{
+    margin: auto;
+    padding: auto;
+    font-size: 25px;
+    text-align: center;
+}
+#machu-picchu{
+    border: 5px solid;
+    border-color: deeppink;
+    border-radius: 25px;    
+}
+#machu-picchu h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkgreen;
+}
+#machu-picchu .machu-picchu{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+}
+.machu-picchu img{
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 45px;
+}
+.machu-picchu p{
+    margin: auto;
+    padding: auto;
+    font-size: 25px;
+    text-align: center;
+}
+#petra{
+    border: 5px solid;
+    border-color: deeppink;
+    border-radius: 25px;    
+}
+#petra h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkgreen;
+}
+#petra .petra{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+}
+.petra img{
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 45px;
+}
+.petra p{
+    margin: auto;
+    padding: auto;
+    font-size: 25px;
+    text-align: center;
+}
+#itza{
+    border: 5px solid;
+    border-color: deeppink;
+    border-radius: 25px;    
+}
+#itza h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkgreen;
+}
+#itza .itza{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+}
+.itza img{
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 45px;
+}
+.itza p{
+    margin: auto;
+    padding: auto;
+    font-size: 25px;
+    text-align: center;
+}
+#greatwall{
+    border: 5px solid;
+    border-color: deeppink;
+    border-radius: 25px;    
+}
+#greatwall h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkgreen;
+}
+#greatwall .greatwall{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+}
+.greatwall img{
+    margin: auto;
+    padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 45px;
+}
+.greatwall p{
+    margin: auto;
+    padding: auto;
+    font-size: 25px;
+    text-align: center;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    color:mediumvioletred;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer div{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Sacramento';
+    font-size: 30px;
+    color: darkmagenta;
+}
