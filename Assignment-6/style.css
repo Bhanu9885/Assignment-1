@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #BCFFB9;
+}
+.left{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.logo>img{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    width: 70px;    
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    background-color: #BCFFB9;
+    align-items: center;
+}
+.nav>a{
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 20px;
+    color: darkmagenta;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    background-color: #BCFFB9;
+    justify-content: space-between;
+}
+.nav>a:hover{
+    background-color: cornsilk;
+    color: blueviolet;
+    border-radius: 45px;
+    transform: scale(1.5);
+}
+.right{
+    align-items: center;
+    justify-content: space-around;
+}
+.btn>button{
+    margin-right: 50px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #f2f895;
+}
+.btn>button:hover{
+    background-color: cornsilk;
+    border-radius: 45px;
+    transform: scale(1.5);
+}
+button>a{
+    padding: 10px;
+    color: darkmagenta;
+    text-decoration: none;
+    font-size: 20px;
+}
+button>a:hover{
+ color: blueviolet;
+}
+.head{
+    display: flex;
+    padding: 20px;
+    background-color: #7868E6;
+    height: 500px; 
+    clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 25% 100%, 75% 100%, 0% 75%, 0% 25%);
+}
+.img1>img{
+    padding: 20px;
+    width: 550px;
+    height: 400px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: right;
+    justify-content: center;
+}
+.details>h3{
+    padding: 10px;
+    color: #FF9A8C;
+    font-size: 20px;
+    align-items: center;
+}
+.details>h1{
+    padding: 10px;
+    color: #0C1E7F;
+    font-size: 38px;
+    align-items: center;
+}
+.details>h1>span{
+    padding: 10px;
+    color: #49FF00;
+    font-size: 38px;
+}
+.details>p{
+    padding: 10px;
+    padding-left: 100px;
+    color: #0C1E7F;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
