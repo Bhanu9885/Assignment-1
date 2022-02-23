@@ -1,0 +1,62 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/winter-background-with-pastel-color-brushes-leaves_220290-42.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    position: relative;
+   
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 75px;
+    font-family: 'Sacramento';   
+    justify-content: space-evenly;
+    text-align: center;
+}
+form{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.data{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'sacramento';
+}
+.input{
+    margin: 10px;
+    padding: 10px;
+}
+#subject{
+    width: 500px;
+    height: 200px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border-color:cyan;
+    color: blue;
+    width: 150px;
+    align-items: center;
+}
+.btn a{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;   
+    border-color:cyan;
+   text-align: justify;
+    text-decoration: none;
+    color: blue;
+}
+.btn:hover{
+    background-color:violet;
+    cursor: pointer;
+   transform: scale(1.5);
+   box-shadow: yellow;
+}
